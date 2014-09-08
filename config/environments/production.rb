@@ -82,7 +82,6 @@ Rails.application.configure do
   # note to set this to your actual host name
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
   config.active_record.dump_schema_after_migration = false
-end
 
 # Sets paperclip to upload images to Amazon S3
 config.paperclip_defaults = {
@@ -93,3 +92,5 @@ config.paperclip_defaults = {
     :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
   }
 }
+
+end
