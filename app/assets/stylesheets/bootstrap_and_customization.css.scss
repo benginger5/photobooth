@@ -1,26 +1,26 @@
-$body-bg:  #1abc9c;
+$body-bg:  #C0C0C0;
 $navbar-default-bg:  black;
-$navbar-default-link-color:  #9b59b6;
-$brand-primary:  #9b59b6;
+$navbar-default-link-color:  #33FFFF;
+$brand-primary:  #33FFFF;
 $jumbotron-bg:  #ecf0f1;
 
 
 @import 'bootstrap';
 
 body{
-	font-family: rockwell;
+	font-family: avant garde;
 }
 
 .center {
      text-align: center;
-     font-family: rockwell;
+     font-family: avant garde;
 }
 
 .navbar-right {
-    font-family: copperplate gothic light;
+    font-family: helvetica;
 }
 
 .navbar-brand {
      font-weight: bold;
-     font-family: copperplate gothic light;
+     font-family: helvetica;
  }
