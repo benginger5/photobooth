@@ -1,19 +1,19 @@
 $body-bg:  #C0C0C0;
 $navbar-default-bg:  black;
-$navbar-default-link-color:  #33FFFF;
-$brand-primary:  #33FFFF;
+$navbar-default-link-color:  #33CCFF;
+$brand-primary:  #33CCFF;
 $jumbotron-bg:  #ecf0f1;
 
 
 @import 'bootstrap';
 
 body{
-	font-family: avant garde;
+	font-family: helvetica;
 }
 
 .center {
      text-align: center;
-     font-family: avant garde;
+     font-family: helvetica;
 }
 
 .navbar-right {
