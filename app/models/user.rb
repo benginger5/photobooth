@@ -4,5 +4,8 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
     has_many :pins
+
+    validates :name, presence: true
+    validates :name, length: { minimum: 2 }
 end
 
